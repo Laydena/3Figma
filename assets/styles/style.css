@@ -205,7 +205,7 @@ p:nth-child(3) {
     color: #272727;
 }
 
-span.sound {
+span.blueletters {
     color: blue;
 }
 
@@ -286,4 +286,80 @@ p:nth-child(5) {
     background: url(../images/Rectangle_11.svg);
     background-repeat: no-repeat;
 
+}
+
+#logos {
+    position: absolute;
+    width: 502px;
+    height: 550px;
+    left: 139px;
+    top: 1994px;
+}
+
+p:nth-child(11) {
+    position: absolute;
+    width: 84px;
+    height: 20px;
+    left: 872px;
+    top: 2104px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(96, 96, 96, 0.5);
+}
+
+.heading3 {
+    position: absolute;
+    width: 423px;
+    height: 104px;
+    left: 872px;
+    top: 2124px;
+    margin-top: 15px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 108%;
+
+
+    color: #0C0C0C;
+}
+
+p:nth-child(13) {
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: 872px;
+    top: 2246px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 18px;
+    line-height: 171%;
+
+    color: #958A8A;
+}
+
+.big-button3 {
+    position: absolute;
+    width: 170px;
+    height: 37px;
+    left: 872px;
+    top: 2342px;
+    margin-top: 40px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#try_gear {
+    background: #0033FF;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 105px;
+    border: none;
+    text-decoration: none;
 }

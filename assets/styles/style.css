@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Söhne Breit Test';
+    src: url(../fonts/soehne-breit-kraftig.ttf);
+}
+
+
+
+header {
+    background-image: url(../images/Rectangle_10.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+nav {
+    padding-top: 52px;
+    padding-left: 273px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-item {
+    font-family: 'Söhne Breit Test';
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 100;
+    color: #272727;
+    text-decoration: none;
+
+    margin-right: 25px;
+    transition: color 0.1s linear;
+}
+
+.nav-item:hover {
+    color: #ff5100;
+}
+
+
+.logo {
+    position: absolute;
+    width: 113px;
+    height: 34px;
+    left: 81px;
+    top: 42px;
+}
+
+.buttons {
+    font-family: 'Söhne Breit Test';
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 100;
+    position: absolute;
+    top: 42px;
+    left: 1100px;
+}
+
+.top-button1 {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 7px 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 105px;
+    margin-right: 2px;
+}
+
+.top-button1:hover {
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+.top-button2 {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 7px 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 105px;
+}
+
+.top-button2:hover {
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+.vector5 {
+    position: absolute;
+    width: 787.74px;
+    height: 701.76px;
+    left: 653.26px;
+    top: 0px;
+
+    background: url(../images/Vector_5.png);
+    mix-blend-mode: normal;
+}
+
+
+.heading {
+    position: absolute;
+    width: 481.16px;
+    height: 122.64px;
+    left: 80px;
+    top: 195px;
+
+}
+
+.tagline {
+    position: absolute;
+    width: 510px;
+    height: 62px;
+    left: 80px;
+    top: 341px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 18px;
+    line-height: 171%;
+
+
+    color: #595959;
+}
+
+
+.big-button {
+    font-family: 'Söhne Breit Test';
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+
+    position: absolute;
+    width: 126px;
+    height: 37px;
+    left: 80px;
+    top: 437px;
+}
+
+.bluebutton {
+
+    background: #0033FF;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 105px;
+    text-decoration: none;
+}
+
+.bluebutton:hover {
+    background: #ff5100;
+}
+
+.bluebutton:active {
+    background: red;
+}
+
+p:first-child {
+    position: absolute;
+    width: 102px;
+    height: 17px;
+    left: 669px;
+    top: 796px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #606060;
+}
+
+#logo-groups {
+    position: absolute;
+    width: 1052px;
+    height: 54px;
+    left: 194px;
+    top: 843px;
+
+    mix-blend-mode: normal;
+}
+
+p:nth-child(3) {
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    left: 679px;
+    top: 1024px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(96, 96, 96, 0.5);
+
+}
+
+.heading2 {
+    position: absolute;
+    width: 429px;
+    height: 52px;
+    left: 505px;
+    top: 1047px;
+    margin-top: 15px;
+
+    font-family: 'Söhne Breit Test';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 108%;
+    /* identical to box height, or 52px */
+
+
+    color: #272727;
+}
+
+span.sound {
+    color: blue;
+}
+
+p:nth-child(5) {
+    position: absolute;
+    width: 558px;
+    height: 93px;
+    left: 441px;
+    top: 1117px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 18px;
+    line-height: 171%;
+
+    text-align: center;
+
+    color: #958A8A;
+}
+
+.big-button2 {
+    position: absolute;
+    width: 170px;
+    height: 37px;
+    left: 638px;
+    top: 1244px;
+    margin-top: 20px;
+
+    font-family: 'Söhne Breit Test';
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#try_sounds {
+    background: #0033FF;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 105px;
+    border: none;
+    text-decoration: none;
+}
+
+#try_sounds:hover {
+    background: #ff5100;
+}
+
+#try_sounds:active {
+    background: red;
+}
+
+#sound_editing {
+    position: absolute;
+    width: 760px;
+    height: 499px;
+    left: 340px;
+    top: 1331px;
+}
+
+.vector8 {
+    position: absolute;
+    width: 1538.5px;
+    height: 500.5px;
+    left: 0px;
+    top: 1355.5px;
+    background: url(../images/Vector_8.svg);
+    background-repeat: no-repeat;
+    mix-blend-mode: normal;
+
+}
+
+.rectangle_11 {
+    position: absolute;
+    width: 1440px;
+    height: 1002.5px;
+    left: 0px;
+    top: 1621px;
+
+    background: url(../images/Rectangle_11.svg);
+    background-repeat: no-repeat;
+
+}

@@ -44,7 +44,7 @@ nav {
     top: 42px;
 }
 
-.buttons {
+.top_buttons {
     font-family: 'Söhne Breit Test';
     font-size: 10px;
     line-height: 12px;
@@ -118,7 +118,7 @@ nav {
 }
 
 
-.big-button {
+.btn1 {
     font-family: 'Söhne Breit Test';
     font-size: 14px;
     font-weight: 100;
@@ -138,6 +138,7 @@ nav {
     padding: 10px 30px;
     border-radius: 105px;
     text-decoration: none;
+    border: none;
 }
 
 .bluebutton:hover {
@@ -225,7 +226,7 @@ p:nth-child(5) {
     color: #958A8A;
 }
 
-.big-button2 {
+.btn2 {
     position: absolute;
     width: 170px;
     height: 37px;
@@ -237,23 +238,6 @@ p:nth-child(5) {
     font-size: 14px;
     font-weight: 100;
     text-decoration: none;
-}
-
-#try_sounds {
-    background: #0033FF;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 105px;
-    border: none;
-    text-decoration: none;
-}
-
-#try_sounds:hover {
-    background: #ff5100;
-}
-
-#try_sounds:active {
-    background: red;
 }
 
 #sound_editing {
@@ -341,7 +325,7 @@ p:nth-child(13) {
     color: #958A8A;
 }
 
-.big-button3 {
+.btn3 {
     position: absolute;
     width: 170px;
     height: 37px;
@@ -352,14 +336,5 @@ p:nth-child(13) {
     font-family: 'Söhne Breit Test';
     font-size: 14px;
     font-weight: 100;
-    text-decoration: none;
-}
-
-#try_gear {
-    background: #0033FF;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 105px;
-    border: none;
     text-decoration: none;
 }
